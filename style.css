@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(5, 5, 5, 0.7), rgba(0, 0, 0, 0.7)),
+    url(1.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 18%;
+  display: flex;
+  align-items: center;
+}
+.row {
+  display: flex;
+  height: 68%;
+  align-items: center;
+}
+pre {
+  font-family: cursive;
+}
+.col {
+  flex-basis: 30%;
+}
+h1 {
+  color: #fff;
+  font-size: 250px;
+}
+pre {
+  color: #fff;
+  font-size: 50px;
+  line-height: 55px;
+}
+.card {
+  width: 700px;
+  height: 850px;
+  display: inline-block;
+  border-radius: 40px;
+  padding: 80px 100px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 30px 55px;
+  background-image: url(download.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.card {
+  width: 700px;
+  height: 850px;
+  display: inline-block;
+  border-radius: 40px;
+  padding: 80px 80px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 30px 55px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.2s;
+}
+.card1 {
+  background-image: url(karnataka.jpg);
+}
+.card2 {
+  background-image: url(kerala.jpg);
+}
+.card3 {
+  background-image: url(western-ghats-goa.jpg);
+}
+.card4 {
+  background-image: url(maha.jpg);
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+h2 {
+  color: #0c0c0c;
+  text-shadow: 0 0 5px #999;
+  font-size: 80px;
+}
+
+#ghats {
+  width: 100%;
+  padding: 70px, 0;
+  color: #545359;
+  font-size: 300px;
+  text-align: center;
+  font-weight: bolder;
+}
+.row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.info {
+  padding-left: 90px;
+  padding-bottom: 1000px;
+  margin: auto;
+  text-align: justify;
+  font-size: 60px;
+  flex-basis: 60%;
+  color: #0c0c0c;
+  line-height: 100px;
+}
+.img {
+  padding-bottom: 400px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  flex-basis: 40%;
+}
+#wildlife {
+  width: 100%;
+
+  color: rgb(15, 15, 15);
+  background-color: rgb(189, 186, 185);
+  font-size: 200px;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 100px;
+}
+.info1 {
+  font-size: 60px;
+  padding-left: 120px;
+  padding-right: 120px;
+  color: rgb(14, 13, 13);
+}
+.rain {
+  font-size: 120px;
+  color: rgba(67, 3, 3, 0.559);
+  text-align: center;
+}
+.rain-img {
+  align-items: center;
+}
+.forest {
+  font-size: 60px;
+  text-align: justify;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+.people {
+  font-size: 120px;
+  color: rgba(67, 3, 3, 0.559);
+  text-align: center;
+}
+.people-img {
+  align-items: center;
+  display: contents;
+  width: 300px;
+  height: 900px;
+}
+.ppl {
+  font-size: 60px;
+  text-align: justify;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+.leop {
+  font-size: 120px;
+  color: rgba(67, 3, 3, 0.559);
+  text-align: center;
+}
+.leop-img {
+  align-items: center;
+  display: contents;
+  width: 300px;
+  height: 900px;
+}
+.karna {
+  font-size: 60px;
+  text-align: justify;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+.hornbill {
+  font-size: 120px;
+  color: rgba(67, 3, 3, 0.559);
+  text-align: center;
+}
+.hornbill-img {
+  align-items: center;
+  display: contents;
+  width: 300px;
+  height: 900px;
+}
+.bill {
+  font-size: 60px;
+  text-align: justify;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+#conserve {
+  width: 100%;
+  color: rgb(15, 15, 15);
+  background-color: rgb(246, 231, 233);
+  font-size: 200px;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 100px;
+}
+.info2 {
+  font-size: 60px;
+  padding-left: 120px;
+  padding-right: 120px;
+  color: rgb(14, 13, 13);
+}
+.row1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.fuel {
+  font-size: 120px;
+  color: rgba(67, 3, 3, 0.559);
+  text-align: left;
+  padding-left: 200px;
+}
+.fuel-img {
+  display: flex;
+  width: 300px;
+  height: 900px;
+}
+.fire {
+  padding-right: 300px;
+  margin: auto;
+  text-align: justify;
+  font-size: 60px;
+  flex-basis: 60%;
+  color: #0c0c0c;
+  line-height: 100px;
+}
+.row2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.live {
+  font-size: 120px;
+  color: rgba(67, 3, 3, 0.559);
+  text-align: left;
+  padding-left: 200px;
+}
+.live-img {
+  display: flex;
+  width: 300px;
+  height: 900px;
+}
+.hood {
+  padding-right: 300px;
+  margin: auto;
+  text-align: justify;
+  font-size: 60px;
+  flex-basis: 60%;
+  color: #0c0c0c;
+  line-height: 100px;
+  padding-left: 350px;
+}
+#wild {
+  width: 100%;
+  color: rgb(15, 15, 15);
+  background-color: rgb(220, 220, 249);
+  font-size: 200px;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 100px;
+}
+.row3 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.wild {
+  font-size: 120px;
+  color: rgba(67, 3, 3, 0.559);
+  text-align: left;
+  padding-left: 200px;
+}
+.wild-img {
+  display: flex;
+  width: 300px;
+  height: 900px;
+}
+.road {
+  padding-right: 300px;
+  margin: auto;
+  text-align: justify;
+  font-size: 60px;
+  flex-basis: 60%;
+  color: #0c0c0c;
+  line-height: 100px;
+  padding-left: 750px;
+}
+.photo {
+  font-size: 200px;
+  color: #d83838f6;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 100px;
+}
+.photo-img {
+  display: flex;
+  width: 250px;
+  height: 900px;
+}
+p1 {
+  font-family: cursive;
+  font-size: 90px;
+  color: rgb(255, 165, 0);
+  text-align: center;
+}
+.pic {
+  padding: 300px;
+}
+#chitra {
+  background-color: rgb(249, 243, 243);
+}
+.video {
+  padding: 200px;
+}
+.links {
+  font-size: 90px;
+  padding: 100px;
+}
